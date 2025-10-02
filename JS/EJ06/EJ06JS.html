@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Ejercicio 6</title>
+    <script src="scriptEJ06.js" defer></script>
+</head>
+<body>
+    <h2>Ejercicio 6: Pizzería</h2>
+    <form>
+        <p>Seleccione una pizza:
+            <select id="pizzas" onChange="mostrarPrecio()">
+                <option value="">-- Seleccione --</option>
+                <option value="800">Jamón y Queso</option>
+                <option value="700">Muzzarella</option>
+                <option value="900">Morrones</option>
+            </select>
+        </p>
+        <p>Precio:
+            <input type="text" id="precio" readonly>
+        </p>
+    </form>
+</body>
+</html>

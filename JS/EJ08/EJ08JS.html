@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Ejercicio 8</title>
+    <script src="scriptEJ08.js" defer></script>
+</head>
+<body>
+    <h2>Ejercicio 8: Examen Múltiple Choice</h2>
+    <form>
+        <p>1. ¿Cuál es la capital de Francia?
+            <select id="p1">
+                <option value="">-- Seleccione --</option>
+                <option value="Madrid">Madrid</option>
+                <option value="París">París</option>
+                <option value="Roma">Roma</option>
+            </select>
+        </p>
+
+        <p>2. ¿Cuánto es 5 x 5?
+            <select id="p2">
+                <option value="">-- Seleccione --</option>
+                <option value="20">20</option>
+                <option value="25">25</option>
+                <option value="30">30</option>
+            </select>
+        </p>
+
+        <p>3. ¿Qué lenguaje se ejecuta en el navegador?
+            <select id="p3">
+                <option value="">-- Seleccione --</option>
+                <option value="Java">Java</option>
+                <option value="Python">Python</option>
+                <option value="JavaScript">JavaScript</option>
+            </select>
+        </p>
+
+        <p>4. ¿Cuál es el planeta más grande del sistema solar?
+            <select id="p4">
+                <option value="">-- Seleccione --</option>
+                <option value="Marte">Marte</option>
+                <option value="Júpiter">Júpiter</option>
+                <option value="Saturno">Saturno</option>
+            </select>
+        </p>
+
+        <p>Resultados:
+            <input type="text" id="resultado" readonly>
+        </p>
+
+        <p>
+            <input type="button" value="Corregir" onClick="corregirExamen()">
+        </p>
+    </form>
+</body>
+</html>
